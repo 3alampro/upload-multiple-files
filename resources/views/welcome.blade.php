@@ -45,7 +45,7 @@
                     <input type="text" id="name" name="name" value="{{ old('name') }}">
                     <div>{{$errors->has('name') ? $errors->first('name') : 'insert name here'}}</div>
 
-                    <label class="control-label" for="content">name</label>
+                    <label class="control-label" for="content">content</label>
                     <input type="text" id="content" name="content" value="{{ old('content') }}">
                     <div>{{$errors->has('content') ? $errors->first('content') : 'insert content here'}}</div>
 
